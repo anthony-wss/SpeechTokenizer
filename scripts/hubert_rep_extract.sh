@@ -1,9 +1,11 @@
 CONFIG="config/spt_base_cfg.json"
-AUDIO_DIR="/remote-home/share/data/SpeechPretrain/LibriSpeech/LibriSpeech"
-REP_DIR="/remote-home/share/data/SpeechPretrain/hubert_rep/LibriSpeech"
-EXTS="flac"
+# AUDIO_DIR="/remote-home/share/data/SpeechPretrain/LibriSpeech/LibriSpeech"
+# REP_DIR="/remote-home/share/data/SpeechPretrain/hubert_rep/LibriSpeech"
+AUDIO_DIR="/home/anthony/vocos/training_data"
+REP_DIR="/home/anthony/taiwan-speech/hubert_rep/dummy"
+EXTS="wav"
 SPLIT_SEED=0
-VALID_SET_SIZE=1500
+VALID_SET_SIZE=3
 
 
 

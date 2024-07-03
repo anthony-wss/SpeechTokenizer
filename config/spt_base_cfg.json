@@ -27,7 +27,7 @@
     "distill_loss_lambda": 120,
     "distill_type": "d_axis",
 
-    "semantic_model_path": "/remote-home/share/models/hubert/ls_960/hubert-base-ls960",
+    "semantic_model_path": "/home/anthony/pretrain_mdls/hubert-base-ls960",
     "semantic_model_layer": "avg",
 
     "train_files":"train_file_list.txt",
